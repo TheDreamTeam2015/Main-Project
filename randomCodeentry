@@ -1,0 +1,15 @@
+
+	for (int i = 0; i < 5; i++) {
+			System.out.print("Enter alarm time. Hour");
+			int hour = in.nextInt();
+			alarm.setHour(hour);
+			System.out.print("Minutes");
+			int minutes = in.nextInt();
+			alarm.setMinutes(minutes);
+
+			clock.setAlarmTime(alarm);
+			System.out.println(clock);
+
+		}
+		
+		
